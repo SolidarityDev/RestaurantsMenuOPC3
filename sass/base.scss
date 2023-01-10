@@ -1,0 +1,82 @@
+@use "sass:color";
+
+body,
+html {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+$color-primary: #9356dc;
+$color-secondary: #ff79da;
+$color-tertiary: #99e2d0;
+$appPadding: 1rem;
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
+
+.header {
+  padding: 1rem $appPadding;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1000;
+
+  &__logo {
+    font-family: "Shrikhand", "cursive";
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.footer {
+  background-color: #353535;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: $appPadding;
+  }
+
+  &_logo {
+    color: white;
+    font-family: "Shrikhand", "cursive";
+    margin: 0;
+    font-size: 1.2rem;
+    margin-bottom: $appPadding;
+  }
+
+  &_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &_listElement {
+    margin: 0.5rem 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &_link {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &_icon {
+    width: 1.2rem;
+    margin-right: 0.5rem;
+  }
+}
