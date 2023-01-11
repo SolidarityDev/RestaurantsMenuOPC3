@@ -126,24 +126,24 @@ $color-tertiary: #99e2d0;
 }
 
 .function {
-  padding: 2rem;
+  padding: 32px;
 
   &_title {
     margin-top: 0;
   }
 
   &_steps {
-    margin: 0;
     padding: 0;
+    margin: 0;
     list-style: none;
     counter-reset: compteListe;
   }
 
   &_step {
-    padding: 1.5rem;
+    padding: 24px;
     margin: 1rem 0 1rem 0.75rem;
     box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
-    border-radius: 1.25rem;
+    border-radius: 20px;
     background-color: #f6f6f6;
     display: flex;
     position: relative;
