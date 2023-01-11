@@ -87,20 +87,20 @@ html {
 }
 .presentation_btn {
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 12px 24px;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 17.5px;
   border-radius: 100px;
+  cursor: pointer;
+  transition-duration: 0.25s;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   color: white;
-  background-color: #686868;
+  background-color: #5c5959e3;
   background-image: linear-gradient(
     0deg,
     rgba(147, 86, 220, 0.9) 0%,
     rgba(255, 121, 218, 0.9) 100%
   );
-  cursor: pointer;
-  transition-duration: 0.25s;
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
 }
 .presentation_btn:hover {
   text-align: center;
@@ -421,26 +421,26 @@ html {
   padding: 3rem 0;
 }
 
-.commandBtn {
+.orderBtn {
   border: 0;
-  padding: 0.75rem 1.5rem;
-  font-weight: 500;
-  font-size: 1.1rem;
+  padding: 12px 24px;
+  font-weight: 450;
+  font-size: 17.5px;
   border-radius: 100px;
+  cursor: pointer;
+  transition-duration: 0.25s;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   color: white;
-  background-color: #686868;
+  background-color: #5c5959e3;
   background-image: linear-gradient(
     0deg,
     rgba(147, 86, 220, 0.9) 0%,
     rgba(255, 121, 218, 0.9) 100%
   );
-  cursor: pointer;
-  transition-duration: 0.25s;
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
 }
-.commandBtn:hover {
+.orderBtn:hover {
   text-align: center;
-  background-color: rgb(250, 250, 250);
+  background-color: whitesmoke;
 }
 
 .wall {
