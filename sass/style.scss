@@ -293,8 +293,8 @@ $color-tertiary: #99e2d0;
   }
 
   &_btn {
-    height: 2rem;
-    width: 2rem;
+    height: 32px;
+    width: 32px;
     border: transparent 0px solid;
     padding: 0;
     display: flex;
@@ -313,8 +313,6 @@ $color-tertiary: #99e2d0;
       transition: 0.5s;
       content: "";
       position: absolute;
-      top: 0;
-      left: 0;
       height: 100%;
       width: 100%;
       background: linear-gradient(
