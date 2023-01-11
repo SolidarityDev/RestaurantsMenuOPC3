@@ -137,16 +137,16 @@ html {
 .function_step::before {
   counter-increment: compteListe 1;
   content: counter(compteListe) " ";
-  background: #9356dc;
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 24px;
+  width: 24;
   border-radius: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #9356dc;
   color: white;
   position: absolute;
-  left: -0.75rem;
+  left: -12px;
 }
 .function_icon {
   margin-right: 1rem;
