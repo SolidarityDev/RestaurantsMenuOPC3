@@ -20,7 +20,9 @@ html {
   left: 70px;
   color: black;
 }
-
+h2 {
+  font-weight: 400;
+}
 .footer {
   background-color: #353535;
 }
@@ -98,7 +100,7 @@ html {
   margin: 0;
 }
 .presentation_subtitle {
-  font-weight: 300;
+  font-weight: 200;
   margin: 1.5rem 0;
 }
 .presentation_btn {
@@ -175,6 +177,7 @@ html {
 }
 .restaurants_title {
   margin-top: 0;
+  font-weight: 700;
 }
 
 .boards {
@@ -222,9 +225,11 @@ html {
 .board_title {
   margin: 0;
   margin-bottom: 0.25rem;
+  font-weight: 700;
 }
 .board_subtitle {
   margin: 0;
+  font-weight: 300;
 }
 .board_btn {
   height: 2rem;
@@ -542,7 +547,34 @@ html {
   .function {
     text-align: center;
     justify-content: center;
-    max-width: 260px;
+    max-width: 850px;
     margin: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .function_steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .restaurants {
+    margin-bottom: 3%;
+  }
+  .function_step {
+    flex: 1;
+    margin: 0;
+    margin-left: 2rem;
+  }
+  .function_step:first-child {
+    margin-left: 0.75rem;
+  }
+  .boards {
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    align-items: center;
+  }
+  .undermenus {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
   }
 }
